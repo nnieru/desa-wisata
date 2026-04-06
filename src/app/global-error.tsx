@@ -36,7 +36,7 @@ export default function GlobalError({
               Try again
             </button>
             <Link
-              href="/"
+              href={"/" as never}
               className="rounded-xl border border-outline/40 bg-surface-container-low px-5 py-2.5 text-sm font-medium text-on-surface transition hover:bg-surface-container"
             >
               Back to home
