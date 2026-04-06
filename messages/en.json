@@ -1,0 +1,326 @@
+{
+  "header": {
+    "brand": "Desa Wisata",
+    "nav": {
+      "home": "Home",
+      "explore": "Explore",
+      "booking": "Booking",
+      "about": "About"
+    },
+    "signIn": "Sign in",
+    "bookNow": "Book now"
+  },
+  "footer": {
+    "brand": "Desa Wisata",
+    "description": "Discover the heart of rural tranquility with curated village experiences built for slow travel.",
+    "explore": {
+      "title": "Explore",
+      "destinations": "Destinations",
+      "bookings": "Bookings",
+      "highlights": "Highlights"
+    },
+    "support": {
+      "title": "Support",
+      "travelGuides": "Travel guides",
+      "privacyPolicy": "Privacy policy",
+      "contactUs": "Contact us"
+    },
+    "newsletter": {
+      "title": "Newsletter",
+      "placeholder": "Email address",
+      "join": "Join"
+    },
+    "copyright": "The curated sanctuary."
+  },
+  "home": {
+    "hero": {
+      "badge": "The curated sanctuary",
+      "title": "Discover the Heart of the Countryside.",
+      "description": "Thoughtfully designed village stays, cultural experiences, and slow travel escapes for travelers who prefer atmosphere over noise.",
+      "search": "Search",
+      "destination": {
+        "label": "Destination",
+        "placeholder": "Where to go?"
+      },
+      "date": {
+        "label": "Date",
+        "placeholder": "Add dates",
+        "checkIn": "Check-in",
+        "checkOut": "Check-out"
+      },
+      "guests": {
+        "label": "Guests",
+        "placeholder": "Add guests",
+        "adults": "Adults",
+        "children": "Children",
+        "infants": "Infants",
+        "ageAdults": "Age 13+",
+        "ageChildren": "Age 2-12",
+        "ageInfants": "Under 2",
+        "adultCount": "{count, plural, one {# adult} other {# adults}}",
+        "childrenCount": "{count, plural, one {# child} other {# children}}",
+        "infantCount": "{count, plural, one {# infant} other {# infants}}"
+      }
+    },
+    "featuredDestinations": {
+      "title": "Featured Destinations",
+      "description": "Hand-picked villages that offer a true glimpse into the soul of the rural landscape.",
+      "viewAll": "View all destinations",
+      "from": "From",
+      "perNight": "/ night"
+    },
+    "popularExperiences": {
+      "title": "Popular Experiences",
+      "description": "Go beyond sightseeing with immersive local activities.",
+      "perPerson": "/person"
+    },
+    "whyChooseUs": {
+      "title": "Why Choose Us",
+      "points": {
+        "localConnections": {
+          "title": "Authentic local connections",
+          "description": "Stay with families and engage in traditions passed down through generations."
+        },
+        "sustainableTourism": {
+          "title": "Sustainable tourism",
+          "description": "We reinvest a portion of every booking directly into local village infrastructure."
+        },
+        "expertGuides": {
+          "title": "Expert guides",
+          "description": "Native storytellers know every secret trail, ritual, and hidden legend."
+        },
+        "seamlessBooking": {
+          "title": "Seamless booking",
+          "description": "Verified stays with clear policies and calm, structured checkout flows."
+        }
+      }
+    }
+  },
+  "explore": {
+    "header": {
+      "title": "Explore Villages",
+      "description": "Discover curated rural sanctuaries tailored for meaningful stays, immersive activities, and slower travel.",
+      "sortBy": "Sort by",
+      "recommended": "Recommended"
+    },
+    "filters": {
+      "searchPlaceholder": "Search villages...",
+      "dateRange": "Date Range",
+      "checkIn": "Check-in",
+      "checkOut": "Check-out",
+      "priceRange": "Price Range",
+      "experience": "Experience",
+      "minimumRating": "Minimum Rating",
+      "resetFilters": "Reset filters",
+      "activeFilters": "{count} {count, plural, one {filter active} other {filters active}}",
+      "priceOptions": {
+        "under50": "Under IDR 1,000,000",
+        "50to150": "IDR 1,000,000 - IDR 2,500,000",
+        "150to300": "IDR 2,500,000 - IDR 4,500,000",
+        "300plus": "IDR 4,500,000+"
+      },
+      "experienceOptions": {
+        "adventure": "Adventure",
+        "culinary": "Culinary",
+        "wellness": "Wellness",
+        "heritage": "Heritage",
+        "nature": "Nature"
+      }
+    },
+    "grid": {
+      "from": "From",
+      "perNight": "/ night"
+    }
+  },
+  "booking": {
+    "hero": {
+      "back": "← Back to stay details",
+      "stepExplore": "Explore",
+      "stepBook": "Book",
+      "title": "Confirm and Pay",
+      "description": "Finalize your booking with a calm, structured checkout flow designed to keep the experience clear and low-friction."
+    },
+    "form": {
+      "guestDetails": "Guest Details",
+      "travelDates": "Travel Dates",
+      "checkIn": "Check-in date",
+      "checkOut": "Check-out date",
+      "fullName": "Full name",
+      "fullNamePlaceholder": "e.g. Jonathan Aris",
+      "email": "Email address",
+      "emailPlaceholder": "jonathan@example.com",
+      "phone": "Phone number",
+      "phonePlaceholder": "+62 812 3456 789",
+      "requests": "Special requests",
+      "requestsPlaceholder": "Dietary requirements, early check-in, or high-floor preference...",
+      "paymentMethod": "Payment Method",
+      "paymentCard": "Credit / Debit Card",
+      "paymentWallet": "Digital Wallet",
+      "cardNumber": "Card number",
+      "expiryDate": "Expiry date",
+      "cvv": "CVV",
+      "securePayment": "Your payment information is encrypted and securely processed.",
+      "submit": "Confirm and pay",
+      "errors": {
+        "fullName": "Please enter your full name.",
+        "email": "Enter a valid email address.",
+        "phone": "Please enter a valid phone number.",
+        "requestsMin": "Add a few details for your stay.",
+        "requestsMax": "Keep requests under 200 characters.",
+        "cardNumber": "Use the format 0000 0000 0000 0000.",
+        "expiryDate": "Use the format MM / YY.",
+        "cvc": "Enter a 3-digit CVV.",
+        "checkIn": "Please select a check-in date.",
+        "checkOut": "Please select a check-out date after check-in."
+      }
+    },
+    "summary": {
+      "stayType": "Sanctuary stay",
+      "dates": "Dates",
+      "guests": "Guests",
+      "duration": "Duration",
+      "nights": "{count, plural, one {# night} other {# nights}}",
+      "rateLine": "{rate} x {nights} nights",
+      "serviceFee": "Service fee",
+      "ecoLevy": "Eco-tourism levy",
+      "total": "Total",
+      "contribution": "Your stay contributes to the restoration of local riverbanks and village infrastructure."
+    }
+  },
+  "destination": {
+    "hero": {
+      "badge": "Curated stay",
+      "rating": "{rating} ({count} reviews)",
+      "perNight": "/ night",
+      "bookNow": "Book now"
+    },
+    "details": {
+      "title": "What this place offers",
+      "arrivalSnapshot": "Arrival snapshot",
+      "atmosphereLabel": "Atmosphere",
+      "atmosphereValue": "Quiet, layered, and restorative",
+      "bestForLabel": "Best for",
+      "bestForValue": "Slow travel and cultural immersion"
+    },
+    "reviews": {
+      "title": "Guest Reviews",
+      "showAll": "Show all reviews",
+      "items": {
+        "sarah": "The most peaceful place I have ever stayed. Waking up to the sound of the river and the view of the rice fields felt magical.",
+        "marcus": "Incredible attention to detail. The local guide made sure we discovered places we never would have found alone."
+      }
+    }
+  },
+  "destinationPage": {
+    "bestValue": "Best value",
+    "from": "From",
+    "bookNow": "Book now",
+    "bookingCardDescription": "A calm, design-led booking card with enough structure to support the public flow while keeping the focus on the destination."
+  },
+  "about": {
+    "hero": {
+      "badge": "About Desa Wisata",
+      "title": "A curated platform for village travel that feels clear, local, and trustworthy.",
+      "description": "Desa Wisata helps travelers discover rural stays, cultural experiences, and village-led hospitality through a calm booking flow and localized content. We focus on places where the story is as important as the stay.",
+      "primaryCta": "Explore destinations",
+      "secondaryCta": "Start booking"
+    },
+    "stats": {
+      "destinations": "Featured destinations",
+      "experiences": "Curated experiences",
+      "languages": "Supported languages",
+      "booking": "Focused booking flow"
+    },
+    "story": {
+      "title": "What we are building",
+      "description": "We design a village tourism experience around three things: clear discovery, thoughtful presentation, and a booking journey that keeps the focus on people and place. The result is a platform that feels editorial without becoming complicated.",
+      "points": {
+        "discover": {
+          "title": "Discover with context",
+          "description": "Each destination is introduced with practical details, atmosphere, and reasons to visit so travelers can compare places quickly."
+        },
+        "book": {
+          "title": "Book with confidence",
+          "description": "The public flow is intentionally simple, with enough structure to make decisions clear and the process easy to follow."
+        },
+        "support": {
+          "title": "Support local communities",
+          "description": "Village stays and experiences are presented as part of a wider ecosystem that benefits hosts, guides, and local infrastructure."
+        }
+      }
+    },
+    "values": {
+      "title": "Our approach",
+      "items": {
+        "localFirst": {
+          "title": "Local-first storytelling",
+          "description": "We highlight the people, rituals, and everyday rhythms that make each destination distinct."
+        },
+        "transparent": {
+          "title": "Transparent presentation",
+          "description": "Rates, booking steps, and destination details are shown in a way that reduces friction and guesswork."
+        },
+        "slowTravel": {
+          "title": "Designed for slow travel",
+          "description": "The interface gives travelers room to explore, compare, and decide without feeling rushed."
+        },
+        "sustainable": {
+          "title": "Built for long-term impact",
+          "description": "The platform emphasizes responsible tourism that can grow without erasing local character."
+        }
+      }
+    },
+    "process": {
+      "title": "How the experience works",
+      "steps": {
+        "browse": {
+          "title": "Browse destinations",
+          "description": "Start with curated village stays and use the compare-ready layout to narrow down what fits your trip."
+        },
+        "learn": {
+          "title": "Learn what matters",
+          "description": "Read concise descriptions, highlights, and experience details so you know what to expect before booking."
+        },
+        "reserve": {
+          "title": "Reserve in one flow",
+          "description": "Finish with a calm checkout process that keeps the next step obvious from start to finish."
+        }
+      }
+    },
+    "cta": {
+      "title": "Ready to explore a slower way to travel?",
+      "description": "Browse the destinations we have curated and choose the village experience that matches your pace.",
+      "button": "View destinations"
+    }
+  },
+  "auth": {
+    "login": {
+      "badge": "Welcome back",
+      "title": "Sign in to your account",
+      "description": "Access your bookings, saved destinations, and travel preferences in one calm dashboard.",
+      "email": "Email address",
+      "emailPlaceholder": "you@example.com",
+      "password": "Password",
+      "passwordPlaceholder": "Enter your password",
+      "submit": "Sign in",
+      "noAccount": "Don't have an account?",
+      "register": "Create one"
+    },
+    "register": {
+      "badge": "New here",
+      "title": "Create your account",
+      "description": "Join to save destinations, manage bookings, and personalize your village travel experience.",
+      "fullName": "Full name",
+      "fullNamePlaceholder": "e.g. Jonathan Aris",
+      "email": "Email address",
+      "emailPlaceholder": "you@example.com",
+      "password": "Password",
+      "passwordPlaceholder": "Create a strong password",
+      "confirmPassword": "Confirm password",
+      "confirmPasswordPlaceholder": "Re-enter your password",
+      "submit": "Create account",
+      "haveAccount": "Already have an account?",
+      "login": "Sign in"
+    }
+  }
+}

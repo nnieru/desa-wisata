@@ -1,0 +1,100 @@
+@import "tailwindcss";
+
+@theme {
+  --color-background: #f8f9fa;
+  --color-surface: #f8f9fa;
+  --color-surface-bright: #f8f9fa;
+  --color-surface-dim: #d5dbdd;
+  --color-surface-variant: #dee3e6;
+  --color-surface-container: #ebeef0;
+  --color-surface-container-low: #f1f4f5;
+  --color-surface-container-high: #e5e9eb;
+  --color-surface-container-highest: #dee3e6;
+  --color-surface-container-lowest: #ffffff;
+  --color-primary: #2d6a4f;
+  --color-primary-dim: #1f5e44;
+  --color-primary-container: #b1f0ce;
+  --color-primary-fixed: #b1f0ce;
+  --color-primary-fixed-dim: #a3e2c0;
+  --color-secondary: #576342;
+  --color-secondary-dim: #4b5737;
+  --color-secondary-container: #dae8be;
+  --color-secondary-fixed: #dae8be;
+  --color-secondary-fixed-dim: #cbdab0;
+  --color-tertiary: #7e572e;
+  --color-tertiary-dim: #704b23;
+  --color-tertiary-container: #d9a777;
+  --color-tertiary-fixed: #d9a777;
+  --color-tertiary-fixed-dim: #ca9a6b;
+  --color-on-background: #2d3335;
+  --color-on-surface: #2d3335;
+  --color-on-surface-variant: #5a6062;
+  --color-on-primary: #e6ffee;
+  --color-on-primary-container: #1d5c42;
+  --color-on-secondary: #f0ffd3;
+  --color-on-secondary-container: #4a5636;
+  --color-on-tertiary: #fff7f4;
+  --color-on-tertiary-container: #482904;
+  --color-outline: #767c7e;
+  --color-outline-variant: #adb3b5;
+  --color-error: #a83836;
+  --color-error-container: #fa746f;
+  --color-on-error: #fff7f6;
+  --color-on-error-container: #6e0a12;
+  --color-inverse-surface: #0c0f10;
+  --color-inverse-on-surface: #9b9d9e;
+  --color-inverse-primary: #beffdc;
+  --font-sans: var(--font-body);
+  --font-display: var(--font-headline);
+  --radius-sm: 0.25rem;
+  --radius-md: 0.5rem;
+  --radius-lg: 1rem;
+  --radius-xl: 1.5rem;
+  --radius-2xl: 1.75rem;
+  --shadow-soft: 0 12px 40px rgba(45, 51, 53, 0.06);
+  --shadow-card: 0 4px 20px rgba(45, 51, 53, 0.04);
+  --shadow-ambient: 0 24px 80px rgba(45, 51, 53, 0.08);
+}
+
+:root {
+  color-scheme: light;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--color-background);
+  color: var(--color-on-surface);
+  font-family: var(--font-body), sans-serif;
+  text-rendering: optimizeLegibility;
+}
+
+h1,
+h2,
+h3,
+h4,
+.brand,
+.font-display {
+  font-family: var(--font-headline), sans-serif;
+}
+
+::selection {
+  background: color-mix(in srgb, var(--color-primary-container) 70%, white);
+  color: var(--color-on-primary-container);
+}
+
+@layer base {
+  * {
+    border-color: color-mix(
+      in srgb,
+      var(--color-outline-variant) 30%,
+      transparent
+    );
+  }
+
+  body {
+    @apply antialiased;
+  }
+}

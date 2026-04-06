@@ -1,0 +1,326 @@
+{
+  "header": {
+    "brand": "Desa Wisata",
+    "nav": {
+      "home": "Beranda",
+      "explore": "Jelajah",
+      "booking": "Pemesanan",
+      "about": "Tentang"
+    },
+    "signIn": "Masuk",
+    "bookNow": "Pesan sekarang"
+  },
+  "footer": {
+    "brand": "Desa Wisata",
+    "description": "Temukan ketenangan pedesaan melalui pengalaman desa yang dikurasi untuk perjalanan yang lebih perlahan.",
+    "explore": {
+      "title": "Jelajah",
+      "destinations": "Destinasi",
+      "bookings": "Pemesanan",
+      "highlights": "Sorotan"
+    },
+    "support": {
+      "title": "Bantuan",
+      "travelGuides": "Panduan perjalanan",
+      "privacyPolicy": "Kebijakan privasi",
+      "contactUs": "Hubungi kami"
+    },
+    "newsletter": {
+      "title": "Newsletter",
+      "placeholder": "Alamat email",
+      "join": "Gabung"
+    },
+    "copyright": "Suaka pilihan yang tenang."
+  },
+  "home": {
+    "hero": {
+      "badge": "Suaka pilihan",
+      "title": "Temukan Jantung Pedesaan.",
+      "description": "Penginapan desa yang dirancang dengan cermat, pengalaman budaya, dan pelarian slow travel untuk pelancong yang mencari suasana, bukan kebisingan.",
+      "search": "Cari",
+      "destination": {
+        "label": "Destinasi",
+        "placeholder": "Mau ke mana?"
+      },
+      "date": {
+        "label": "Tanggal",
+        "placeholder": "Tambah tanggal",
+        "checkIn": "Check-in",
+        "checkOut": "Check-out"
+      },
+      "guests": {
+        "label": "Tamu",
+        "placeholder": "Tambah tamu",
+        "adults": "Dewasa",
+        "children": "Anak",
+        "infants": "Bayi",
+        "ageAdults": "Usia 13+",
+        "ageChildren": "Usia 2-12",
+        "ageInfants": "Di bawah 2",
+        "adultCount": "{count, plural, one {# dewasa} other {# dewasa}}",
+        "childrenCount": "{count, plural, one {# anak} other {# anak}}",
+        "infantCount": "{count, plural, one {# bayi} other {# bayi}}"
+      }
+    },
+    "featuredDestinations": {
+      "title": "Destinasi Unggulan",
+      "description": "Desa pilihan yang menghadirkan potret otentik jiwa lanskap pedesaan.",
+      "viewAll": "Lihat semua destinasi",
+      "from": "Mulai",
+      "perNight": "/ malam"
+    },
+    "popularExperiences": {
+      "title": "Pengalaman Populer",
+      "description": "Lebih dari sekadar melihat pemandangan, rasakan aktivitas lokal yang imersif.",
+      "perPerson": "/orang"
+    },
+    "whyChooseUs": {
+      "title": "Mengapa Memilih Kami",
+      "points": {
+        "localConnections": {
+          "title": "Koneksi lokal yang autentik",
+          "description": "Menginap bersama keluarga lokal dan terlibat dalam tradisi lintas generasi."
+        },
+        "sustainableTourism": {
+          "title": "Pariwisata berkelanjutan",
+          "description": "Sebagian dari setiap pemesanan kami kembalikan langsung untuk infrastruktur desa."
+        },
+        "expertGuides": {
+          "title": "Pemandu berpengalaman",
+          "description": "Pencerita lokal memahami setiap jalur tersembunyi, ritual, dan legenda."
+        },
+        "seamlessBooking": {
+          "title": "Pemesanan tanpa repot",
+          "description": "Penginapan terverifikasi dengan kebijakan jelas dan alur checkout yang tenang."
+        }
+      }
+    }
+  },
+  "explore": {
+    "header": {
+      "title": "Jelajahi Desa",
+      "description": "Temukan suaka pedesaan terkurasi untuk menginap bermakna, aktivitas imersif, dan perjalanan yang lebih lambat.",
+      "sortBy": "Urutkan",
+      "recommended": "Rekomendasi"
+    },
+    "filters": {
+      "searchPlaceholder": "Cari desa...",
+      "dateRange": "Rentang Tanggal",
+      "checkIn": "Check-in",
+      "checkOut": "Check-out",
+      "priceRange": "Rentang Harga",
+      "experience": "Pengalaman",
+      "minimumRating": "Rating Minimum",
+      "resetFilters": "Reset filter",
+      "activeFilters": "{count} {count, plural, one {filter aktif} other {filter aktif}}",
+      "priceOptions": {
+        "under50": "Di bawah Rp1.000.000",
+        "50to150": "Rp1.000.000 - Rp2.500.000",
+        "150to300": "Rp2.500.000 - Rp4.500.000",
+        "300plus": "Rp4.500.000+"
+      },
+      "experienceOptions": {
+        "adventure": "Petualangan",
+        "culinary": "Kuliner",
+        "wellness": "Wellness",
+        "heritage": "Warisan budaya",
+        "nature": "Alam"
+      }
+    },
+    "grid": {
+      "from": "Mulai",
+      "perNight": "/ malam"
+    }
+  },
+  "booking": {
+    "hero": {
+      "back": "← Kembali ke detail penginapan",
+      "stepExplore": "Jelajahi",
+      "stepBook": "Pesan",
+      "title": "Konfirmasi dan Bayar",
+      "description": "Selesaikan pemesanan Anda dengan alur checkout yang tenang, terstruktur, dan minim hambatan."
+    },
+    "form": {
+      "guestDetails": "Detail Tamu",
+      "travelDates": "Tanggal Perjalanan",
+      "checkIn": "Tanggal check-in",
+      "checkOut": "Tanggal check-out",
+      "fullName": "Nama lengkap",
+      "fullNamePlaceholder": "contoh: Jonathan Aris",
+      "email": "Alamat email",
+      "emailPlaceholder": "jonathan@example.com",
+      "phone": "Nomor telepon",
+      "phonePlaceholder": "+62 812 3456 789",
+      "requests": "Permintaan khusus",
+      "requestsPlaceholder": "Kebutuhan makanan, check-in lebih awal, atau preferensi lantai...",
+      "paymentMethod": "Metode Pembayaran",
+      "paymentCard": "Kartu Kredit / Debit",
+      "paymentWallet": "Dompet Digital",
+      "cardNumber": "Nomor kartu",
+      "expiryDate": "Tanggal kedaluwarsa",
+      "cvv": "CVV",
+      "securePayment": "Informasi pembayaran Anda terenkripsi dan diproses dengan aman.",
+      "submit": "Konfirmasi dan bayar",
+      "errors": {
+        "fullName": "Masukkan nama lengkap Anda.",
+        "email": "Masukkan alamat email yang valid.",
+        "phone": "Masukkan nomor telepon yang valid.",
+        "requestsMin": "Tambahkan beberapa detail untuk kunjungan Anda.",
+        "requestsMax": "Permintaan maksimal 200 karakter.",
+        "cardNumber": "Gunakan format 0000 0000 0000 0000.",
+        "expiryDate": "Gunakan format MM / YY.",
+        "cvc": "Masukkan 3 digit CVV.",
+        "checkIn": "Pilih tanggal check-in.",
+        "checkOut": "Pilih tanggal check-out setelah check-in."
+      }
+    },
+    "summary": {
+      "stayType": "Penginapan suaka",
+      "dates": "Tanggal",
+      "guests": "Tamu",
+      "duration": "Durasi",
+      "nights": "{count, plural, one {# malam} other {# malam}}",
+      "rateLine": "{rate} x {nights} malam",
+      "serviceFee": "Biaya layanan",
+      "ecoLevy": "Levy ekowisata",
+      "total": "Total",
+      "contribution": "Kontribusi Anda membantu pemulihan bantaran sungai dan infrastruktur desa setempat."
+    }
+  },
+  "destination": {
+    "hero": {
+      "badge": "Penginapan terkurasi",
+      "rating": "{rating} ({count} ulasan)",
+      "perNight": "/ malam",
+      "bookNow": "Pesan sekarang"
+    },
+    "details": {
+      "title": "Yang ditawarkan tempat ini",
+      "arrivalSnapshot": "Gambaran saat tiba",
+      "atmosphereLabel": "Suasana",
+      "atmosphereValue": "Tenang, berlapis, dan memulihkan",
+      "bestForLabel": "Cocok untuk",
+      "bestForValue": "Slow travel dan imersi budaya"
+    },
+    "reviews": {
+      "title": "Ulasan Tamu",
+      "showAll": "Lihat semua ulasan",
+      "items": {
+        "sarah": "Tempat paling damai yang pernah saya tinggali. Bangun dengan suara sungai dan pemandangan sawah terasa magis.",
+        "marcus": "Perhatian terhadap detail sangat luar biasa. Pemandu lokal membantu kami menemukan tempat yang tak mungkin ditemukan sendiri."
+      }
+    }
+  },
+  "destinationPage": {
+    "bestValue": "Nilai terbaik",
+    "from": "Mulai",
+    "bookNow": "Pesan sekarang",
+    "bookingCardDescription": "Kartu pemesanan yang tenang dan berorientasi desain, cukup terstruktur untuk alur publik sambil tetap fokus pada destinasi."
+  },
+  "about": {
+    "hero": {
+      "badge": "Tentang Desa Wisata",
+      "title": "Platform kurasi wisata desa yang jelas, lokal, dan dapat dipercaya.",
+      "description": "Desa Wisata membantu pelancong menemukan penginapan desa, pengalaman budaya, dan keramahan berbasis komunitas melalui alur pemesanan yang tenang dan konten yang dilokalkan. Fokus kami adalah tempat-tempat yang kisahnya sama pentingnya dengan masa menginapnya.",
+      "primaryCta": "Jelajahi destinasi",
+      "secondaryCta": "Mulai pesan"
+    },
+    "stats": {
+      "destinations": "Destinasi unggulan",
+      "experiences": "Pengalaman terkurasi",
+      "languages": "Bahasa yang didukung",
+      "booking": "Alur pemesanan fokus"
+    },
+    "story": {
+      "title": "Apa yang sedang kami bangun",
+      "description": "Kami merancang pengalaman wisata desa berdasarkan tiga hal: penemuan yang jelas, penyajian yang matang, dan perjalanan pemesanan yang tetap fokus pada manusia serta tempat. Hasilnya adalah platform yang terasa editorial tanpa menjadi rumit.",
+      "points": {
+        "discover": {
+          "title": "Menemukan dengan konteks",
+          "description": "Setiap destinasi diperkenalkan dengan detail praktis, suasana, dan alasan berkunjung agar pelancong bisa membandingkan tempat dengan cepat."
+        },
+        "book": {
+          "title": "Memesan dengan yakin",
+          "description": "Alur publik dibuat sederhana, dengan struktur yang cukup untuk membuat keputusan terasa jelas dan proses mudah diikuti."
+        },
+        "support": {
+          "title": "Mendukung komunitas lokal",
+          "description": "Penginapan dan pengalaman desa ditampilkan sebagai bagian dari ekosistem yang memberi manfaat bagi tuan rumah, pemandu, dan infrastruktur lokal."
+        }
+      }
+    },
+    "values": {
+      "title": "Pendekatan kami",
+      "items": {
+        "localFirst": {
+          "title": "Cerita yang mengutamakan lokal",
+          "description": "Kami menyoroti orang, ritual, dan ritme keseharian yang membuat setiap destinasi berbeda."
+        },
+        "transparent": {
+          "title": "Penyajian yang transparan",
+          "description": "Harga, langkah pemesanan, dan detail destinasi ditampilkan untuk mengurangi kebingungan dan tebakan."
+        },
+        "slowTravel": {
+          "title": "Dirancang untuk slow travel",
+          "description": "Antarmuka memberi ruang bagi pelancong untuk menjelajah, membandingkan, dan memutuskan tanpa tergesa-gesa."
+        },
+        "sustainable": {
+          "title": "Dibangun untuk dampak jangka panjang",
+          "description": "Platform ini menekankan pariwisata bertanggung jawab yang bisa tumbuh tanpa menghapus karakter lokal."
+        }
+      }
+    },
+    "process": {
+      "title": "Cara pengalaman ini bekerja",
+      "steps": {
+        "browse": {
+          "title": "Jelajahi destinasi",
+          "description": "Mulai dari penginapan desa yang telah dikurasi dan gunakan tata letak yang mudah dibandingkan untuk mempersempit pilihan."
+        },
+        "learn": {
+          "title": "Pahami hal penting",
+          "description": "Baca deskripsi ringkas, sorotan, dan detail pengalaman agar Anda tahu apa yang akan didapat sebelum memesan."
+        },
+        "reserve": {
+          "title": "Pesan dalam satu alur",
+          "description": "Selesaikan pemesanan melalui proses checkout yang tenang dan membuat langkah berikutnya tetap jelas dari awal sampai akhir."
+        }
+      }
+    },
+    "cta": {
+      "title": "Siap menjelajah dengan ritme yang lebih lambat?",
+      "description": "Telusuri destinasi yang telah kami kurasi dan pilih pengalaman desa yang sesuai dengan pace perjalanan Anda.",
+      "button": "Lihat destinasi"
+    }
+  },
+  "auth": {
+    "login": {
+      "badge": "Selamat datang kembali",
+      "title": "Masuk ke akun Anda",
+      "description": "Akses pemesanan, destinasi tersimpan, dan preferensi perjalanan Anda dalam satu dashboard yang tenang.",
+      "email": "Alamat email",
+      "emailPlaceholder": "anda@example.com",
+      "password": "Kata sandi",
+      "passwordPlaceholder": "Masukkan kata sandi Anda",
+      "submit": "Masuk",
+      "noAccount": "Belum punya akun?",
+      "register": "Buat akun"
+    },
+    "register": {
+      "badge": "Pengguna baru",
+      "title": "Buat akun Anda",
+      "description": "Bergabung untuk menyimpan destinasi, mengelola pemesanan, dan mempersonalisasi pengalaman wisata desa Anda.",
+      "fullName": "Nama lengkap",
+      "fullNamePlaceholder": "contoh: Jonathan Aris",
+      "email": "Alamat email",
+      "emailPlaceholder": "anda@example.com",
+      "password": "Kata sandi",
+      "passwordPlaceholder": "Buat kata sandi yang kuat",
+      "confirmPassword": "Konfirmasi kata sandi",
+      "confirmPasswordPlaceholder": "Masukkan ulang kata sandi Anda",
+      "submit": "Buat akun",
+      "haveAccount": "Sudah punya akun?",
+      "login": "Masuk"
+    }
+  }
+}

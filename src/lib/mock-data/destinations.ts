@@ -1,0 +1,101 @@
+import type { Destination } from "@/types/destination";
+
+export const destinations: Destination[] = [
+  {
+    id: "ubud-sanctuary",
+    slug: "ubud-sanctuary",
+    name: "Ubud Rice Sanctuary",
+    region: "Gianyar, Bali",
+    country: "Indonesia",
+    tagline: "Rice terraces, temple courtyards, and a quiet village rhythm.",
+    description:
+      "Experience Bali through a slower lens. Ubud Rice Sanctuary blends traditional compounds, quiet walking paths, and regenerative hospitality into a restful stay.",
+    pricePerNight: 1850000,
+    rating: 4.9,
+    reviewCount: 124,
+    heroImage: "/images/dummy-placeholder.svg",
+    gallery: [
+      "/images/dummy-placeholder.svg",
+      "/images/dummy-placeholder.svg",
+      "/images/dummy-placeholder.svg",
+    ],
+    tags: ["Heritage", "Wellness", "Premium"],
+    amenities: [
+      "High-speed WiFi",
+      "Organic Breakfast",
+      "Local Guide",
+      "Private Spa",
+      "Infinity Pool",
+      "Village Bikes",
+    ],
+    highlights: [
+      "Slow-living villas with layered privacy",
+      "Curated local experiences and cultural hosts",
+      "Nightly rates tailored for intimate retreats",
+    ],
+  },
+  {
+    id: "sapa-highland",
+    slug: "sapa-highland",
+    name: "Nglanggeran Hills Retreat",
+    region: "Gunungkidul, Yogyakarta",
+    country: "Indonesia",
+    tagline: "Ancient volcanic hills and sunrise trails.",
+    description:
+      "A hillside retreat with panoramic views, village hospitality, and a clear booking flow for slow travelers.",
+    pricePerNight: 1450000,
+    rating: 4.7,
+    reviewCount: 89,
+    heroImage: "/images/dummy-placeholder.svg",
+    gallery: [],
+    tags: ["Nature", "Adventure", "Heritage"],
+    amenities: ["Guided hikes", "Local hosts", "Breakfast included"],
+    highlights: [
+      "Mist-filled valley views",
+      "Cultural immersion with local guides",
+    ],
+  },
+  {
+    id: "shirakawa-valley",
+    slug: "shirakawa-valley",
+    name: "Sade Heritage Stay",
+    region: "Lombok Tengah, Nusa Tenggara Barat",
+    country: "Indonesia",
+    tagline: "Traditional Sasak houses and a living cultural landscape.",
+    description:
+      "Stay close to Sasak craftsmanship, woven traditions, and a compact village setting that keeps the experience intimate and grounded.",
+    pricePerNight: 980000,
+    rating: 4.9,
+    reviewCount: 210,
+    heroImage: "/images/dummy-placeholder.svg",
+    gallery: [],
+    tags: ["Heritage", "Community", "Culinary"],
+    amenities: ["Sasak hosts", "Breakfast included", "Weaving demo"],
+    highlights: ["Historic thatched homes", "Living craft traditions"],
+  },
+  {
+    id: "wae-rebo-retreat",
+    slug: "wae-rebo-retreat",
+    name: "Wae Rebo Cloud Retreat",
+    region: "Manggarai, Nusa Tenggara Timur",
+    country: "Indonesia",
+    tagline: "A mountain village escape above the clouds.",
+    description:
+      "Remote, atmospheric, and rooted in local hospitality, this retreat is designed for travelers who want a meaningful slow-travel story.",
+    pricePerNight: 2250000,
+    rating: 4.9,
+    reviewCount: 142,
+    heroImage: "/images/dummy-placeholder.svg",
+    gallery: [],
+    tags: ["Nature", "Heritage", "Exclusive"],
+    amenities: ["Local trekking guide", "Homestay meals", "Village rituals"],
+    highlights: ["Highland village views", "Sacred mountain routes"],
+  },
+];
+
+export const featuredDestinationIds = [
+  "ubud-sanctuary",
+  "sapa-highland",
+  "shirakawa-valley",
+  "wae-rebo-retreat",
+];
