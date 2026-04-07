@@ -21,7 +21,7 @@ import {
 import { PageShell } from "@/components/layout/page-shell";
 import { destinations } from "@/lib/mock-data/destinations";
 import { experiences } from "@/lib/mock-data/experiences";
-import { fadeInUp, staggerChildren } from "@/lib/motion";
+import { fadeInUp, staggerChildren } from "@/utils/motion";
 import { Link } from "@/i18n/navigation";
 
 const values = [

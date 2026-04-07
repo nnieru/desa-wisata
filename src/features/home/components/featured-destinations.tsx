@@ -9,8 +9,8 @@ import {
   destinations,
   featuredDestinationIds,
 } from "@/lib/mock-data/destinations";
-import { fadeInUp, staggerChildren } from "@/lib/motion";
-import { formatCurrency } from "@/lib/format";
+import { fadeInUp, staggerChildren } from "@/utils/motion";
+import { formatCurrency } from "@/utils/format";
 import type { Destination } from "@/types/destination";
 import { Link } from "@/i18n/navigation";
 import { useLocale } from "next-intl";

@@ -7,9 +7,9 @@ import { useTranslations } from "next-intl";
 import { Badge, Card, FallbackImage } from "@/components/ui";
 import { cn } from "@/lib/cn";
 import { destinations } from "@/lib/mock-data/destinations";
-import { fadeInUp, staggerChildren } from "@/lib/motion";
-import { formatCurrency } from "@/lib/format";
-import { useSearchStore } from "@/stores/use-search-store";
+import { fadeInUp, staggerChildren } from "@/utils/motion";
+import { formatCurrency } from "@/utils/format";
+import { useSearchStore } from "@/features/explore/stores/use-search-store";
 import { Link } from "@/i18n/navigation";
 import { useLocale } from "next-intl";
 

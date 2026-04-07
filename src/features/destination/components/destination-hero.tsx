@@ -4,7 +4,7 @@ import { useLocale } from "next-intl";
 
 import { Badge, Button, FallbackImage } from "@/components/ui";
 import { Link } from "@/i18n/navigation";
-import { formatCurrency } from "@/lib/format";
+import { formatCurrency } from "@/utils/format";
 import type { Destination } from "@/types/destination";
 
 export function DestinationHero({ destination }: { destination: Destination }) {

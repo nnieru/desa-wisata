@@ -4,7 +4,7 @@ import { Leaf, MapPinned, ShieldCheck, Sparkles } from "lucide-react";
 import { motion } from "motion/react";
 import { useTranslations } from "next-intl";
 
-import { fadeInUp, staggerChildren } from "@/lib/motion";
+import { fadeInUp, staggerChildren } from "@/utils/motion";
 
 const points = [
   { icon: <Sparkles className="h-5 w-5" />, key: "localConnections" },

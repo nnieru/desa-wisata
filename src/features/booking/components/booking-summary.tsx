@@ -3,9 +3,9 @@
 import { useLocale, useTranslations } from "next-intl";
 
 import { FallbackImage, Separator } from "@/components/ui";
-import { formatCurrency, formatDateRange } from "@/lib/format";
+import { formatCurrency, formatDateRange } from "@/utils/format";
 import type { Destination } from "@/types/destination";
-import { useBookingStore } from "@/stores/use-booking-store";
+import { useBookingStore } from "@/features/booking/stores/use-booking-store";
 
 export function BookingSummary({ destination }: { destination: Destination }) {
   const t = useTranslations("booking.summary");

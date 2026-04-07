@@ -10,7 +10,7 @@ import { DestinationHero } from "@/features/destination/components/destination-h
 import { ReviewsSection } from "@/features/destination/components/reviews-section";
 import { Link } from "@/i18n/navigation";
 import { destinations } from "@/lib/mock-data/destinations";
-import { formatCurrency } from "../../../../lib/format";
+import { formatCurrency } from "@/utils/format";
 
 export default async function DestinationPage({
   params,

@@ -6,8 +6,8 @@ import { useTranslations } from "next-intl";
 
 import { Badge, Button, Card, FallbackImage } from "@/components/ui";
 import { experiences } from "@/lib/mock-data/experiences";
-import { fadeInUp, staggerChildren } from "@/lib/motion";
-import { formatCurrency } from "@/lib/format";
+import { fadeInUp, staggerChildren } from "@/utils/motion";
+import { formatCurrency } from "@/utils/format";
 import { useLocale } from "next-intl";
 
 export function PopularExperiences() {

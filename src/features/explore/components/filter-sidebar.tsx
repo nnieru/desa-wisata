@@ -5,7 +5,7 @@ import { Check, Search, Star } from "lucide-react";
 import { useTranslations } from "next-intl";
 
 import { Badge, Button, Input } from "@/components/ui";
-import { useSearchStore } from "@/stores/use-search-store";
+import { useSearchStore } from "@/features/explore/stores/use-search-store";
 
 const experienceOptions = [
   "adventure",

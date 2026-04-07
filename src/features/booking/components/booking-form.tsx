@@ -7,7 +7,7 @@ import { useForm } from "react-hook-form";
 import { z } from "zod";
 
 import { Badge, Button, Input, Label } from "@/components/ui";
-import { useBookingStore } from "@/stores/use-booking-store";
+import { useBookingStore } from "@/features/booking/stores/use-booking-store";
 
 type BookingFormValues = {
   fullName: string;

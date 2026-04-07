@@ -4,7 +4,7 @@ import { motion } from "motion/react";
 import { useTranslations } from "next-intl";
 
 import { Link } from "@/i18n/navigation";
-import { fadeInUp } from "@/lib/motion";
+import { fadeInUp } from "@/utils/motion";
 
 export function BookingHero({
   destinationSlug,

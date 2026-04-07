@@ -1,6 +1,6 @@
 import { create } from "zustand";
 
-import type { BookingFormState } from "@/types/booking";
+import type { BookingFormState } from "../types/booking";
 
 type BookingStore = {
   form: BookingFormState;
